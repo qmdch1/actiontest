@@ -23,6 +23,7 @@ jobs:
             cd was/actiontest/  #경로 이동 (실제 존재하는 경로로 이동해야한다.)
             git checkout release
             git pull origin release
+            npm i
             pm2 start npm --name "githubAction" -- start
             
   
