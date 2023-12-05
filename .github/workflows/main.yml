@@ -3,8 +3,8 @@ on: # 이럴때 실행 해달라
   # Triggers the workflow on push or pull request events but only for the main branch
   push: # push를 할때 
     branches: #어떤것이?
-      - main #main이
-   # main의 정보에 push될때마다 실행을 해달라
+      - release
+   # release의 정보에 push될때마다 실행을 해달라
 
 # 실행
 jobs:
